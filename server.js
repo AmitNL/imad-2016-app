@@ -41,7 +41,7 @@ var mainText = document.getElementById("aText");
 
 var element = document.getElementById("madi");
 
-element.innerHtml = "New Text";
+aText.innerHtml = "New Text";
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
